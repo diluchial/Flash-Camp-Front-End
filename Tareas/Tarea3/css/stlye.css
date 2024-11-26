@@ -1,0 +1,26 @@
+
+.container1, .container2, .container3 {
+    display: flex;
+    margin: 0 10%;
+    justify-content: space-between;
+    padding: 20px; 
+}
+
+.container1 {
+    background-color: yellow;
+}
+.container2 {
+    background-color: rgb(51, 148, 181);
+}
+
+.container3 {
+    background-color: rgb(189, 57, 134);
+}
+.imgcenter{
+    display: flex;
+    justify-content: center;
+}
+
+.imgcenter img {
+    max-width: 80%;
+}

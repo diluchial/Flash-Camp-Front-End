@@ -1,0 +1,156 @@
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 14px;
+}
+
+.top-message{
+    background-color: #93c47e;
+    padding: 10px;
+    text-align: center;  
+    font: weight 400px; 
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 3px solid black;
+    margin: 0 10%
+    
+}
+
+.header h1{
+    font-weight: 400;
+    font-size: 32px;
+}
+
+.header .botones{
+    text-align: right;
+
+}
+.header .botones button {
+    font-weight: 800;
+    border: 3px solid black;
+    font-size: large;
+    padding: 10px 15px;
+    gap: 10px;
+
+}
+
+.btnAdoptar{
+    color:  black;
+    background-color: #b6d7a8;
+    font-weight: 800;
+
+}
+
+.btnDonar{
+    color: white;
+    background-color:  #6aa84f;
+}
+
+.uno {
+    color:#009e10;
+
+}
+.dos{
+    color: #b6d7a8;
+}
+
+.tres{
+    color: #93c47e;
+}
+
+.selector{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 15px 10%;
+    font-size: 20px;
+}
+
+.arboles{
+    display: flex;
+    margin: 0 10%;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+
+.arbol{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(220, 215, 215);
+    padding: 10px;
+    width: 46%;
+    border-radius: 20px;
+}
+
+.arbol img{
+    max-width: 50%;
+}
+
+.arbol .text{
+    margin: 2%;
+    align-items: center;
+    display: flex;
+}
+
+.arbol .text h3{
+    margin: 0;
+    font-weight: 600;
+    font-size: 22px;
+}
+
+.arbol .text p{
+    margin:0;
+}
+
+.accion {
+    align-items: center;
+    display: flex;
+}
+
+.backgroundFooter{
+    width: 100%;
+    background-color: #93c47e;
+    margin-top: 20px;
+    padding: 20px 0;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 10%;
+}
+
+.info1 h1 {
+    color: white;
+    font-weight: 400;
+}
+
+.info2 ul, .info3 ul{ /* le aplico el estilo a dos elementos de clases*/
+    list-style: none;    
+}
+
+.info2 ul li, .info3 ul li{
+    margin: 15px;
+}
+
+.info4 {
+    color:white;
+    font-size: 24px;
+}
+
+.contact {
+    display: flex;
+}
+
+.contact input{
+    border: 2px solid black;
+}
+.contact button{
+    background-color:  #6aa84f;
+    color:white;
+    font-weight: 600;
+}

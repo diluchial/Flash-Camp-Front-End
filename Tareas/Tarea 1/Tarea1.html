@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Formulario</title>
+        <style>
+            .container {
+                border: 3px solid #000;
+                max-width: 50%;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <h1>¡Registrate y Unete a nuestra comunidad!</h1>
+        <form action="#" method="POST">
+            <label for="nombre">Nombre: </label>
+            <input type="text" id="nombre" name="nombre" /><br /><br />
+
+            <label for="Apellido">Apellido: </label>
+            <input type="number" id="edad" name="edad" /><br /><br />
+
+            <label for="correo electrónico">Correo electrónico: </label>
+            <input type="password" id="clave" name="clave" /><br /><br />
+
+            <label for="Contraseña">Contraseña: </label>
+            <input type="password" id="clave" name="clave" /><br /><br />
+
+            <label for="Confirmar Contrasela">Confirmar contraseña: </label>
+            <input type="password" id="clave" name="clave" /><br /><br />
+
+            <label for="Fecha_nacimiento">Fecha de nacimiento: </label>
+            <input type="date" id="fecha_nacimiento" name="fecha_nacimiento" /><br /><br />
+
+            <label>Genero:</label>
+            <input type="radio" id="femenino" name="estilo_fuente" value="bold" />
+            <label for="femenino"><strong>femenino</strong></label>
+            <input type="radio" id="normal" name="estilo_fuente" value="normal" />
+            <label for="normal">Masculino</label><br /><br />
+
+            <input type="checkbox" id="Suscríbete a nuestro boletin" name="acepto" />
+            <label for="acepto">Suscríbete a nuestro boletin</label><br /><br />
+
+            <label for="comentario">Una descripción de mi mismo </label>
+            <br /><br />
+            <textarea id="comentario" name="comentario" rows="4" cols="30"></textarea><br /><br />
+
+            <label for="intereses">Selecciona tus intereses </label>
+            <select id="intereses" name="intereses">
+                <option value="Mùsica">Música</option>
+                <option value="Deportes">Deportes</option>
+                <option value="Viajes">Viajes</option></select
+            ><br /><br />
+
+            <input type="submit" value="Registrarse" />
+        </form>
+    </body>
+</html>

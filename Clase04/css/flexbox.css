@@ -1,0 +1,34 @@
+/*Flexbox
+
+Usamos lo que es el display flex, que siempre va al contener padre.
+Palabras claves a tener en cuenta: 
+-contenedor: es el Padre, quien tiene el contenedero flexible. A este contenedor es a quien le aplicaremos la mayoría de propiedades de flexbox
+-items: son los hijos directos del contenedor (Padre), que se verán afectados por las propiedades del contenedor padre.
+-eje principal: es el eje en el que se distribuyen los item, en este caso es el eje horizontal.
+-eje secundario: es el eje perpendicular al principal, por ende es el veritical.
+
+*/
+
+.box{
+    background-color:rgb(187, 167, 206);
+    font-weight: 900;
+    border: solid blue 2px;
+    padding: 10px;
+    margin: 5px
+}
+
+/* Contenedor Padre*/
+
+.container{
+    border: solid black;
+    height: 250px;
+    display: flex;
+    /*flex-direction: row-reverse; */
+
+    flex-wrap: wrap;
+    /*justify-content: flex-end;
+    justify-content: space-evenly;*/
+    align-items: center;
+    justify-content: center;
+
+}
